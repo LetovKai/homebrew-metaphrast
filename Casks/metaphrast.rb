@@ -17,7 +17,7 @@ cask "metaphrast" do
   desc "Realtime conference translation capture client"
   homepage "https://metaphrast.org"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Metaphrast.app"
 
