@@ -9,8 +9,8 @@
 # При новом релизе обновить version + sha256 (shasum -a 256 <dmg>) и URL.
 # Бинарь universal (arm64 + x86_64) — один dmg на все Маки.
 cask "metaphrast" do
-  version "0.1.4"
-  sha256 "23ef6048fd051f2a83ca4ba8ec7d9241aed7cd4b88de609ce3aac61a60a608e2"
+  version "0.1.5"
+  sha256 "62235c6b0f1425c69cfe4b0289a36e70fbd176f342ba0da383064206160c4405"
 
   url "https://metaphrast.org/downloads/Metaphrast_#{version}_universal.dmg"
   name "Metaphrast"
